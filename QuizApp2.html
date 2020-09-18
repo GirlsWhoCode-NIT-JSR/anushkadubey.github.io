@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Quiz App Site </title>
+
+</head>
+<body>
+    <div class="quiz-container">
+    <form name="quiz" onsubmit="return startquiz()">
+    <h1 id = "heading">General Knowledge Quiz</h1>
+    
+
+    <h3 class="questions">[Q1] World's largest desert is:</h3>
+    <input type="radio" name="Q1" value="a" id="Q1a"> Thar
+    <input type="radio" name="Q1" value="b" id="Q1b"> Kala Hari
+    <input type="radio" name="Q1" value="c" id="Q1c"> Sahara
+    <input type="radio" name="Q1" value="d" id="Q1d"> Sonoran 
+
+    <h3 class="questions">[Q2] Country that has highest barley production:</h3>
+    <input type="radio" name="Q2" value="a" id="Q2a"> China
+    <input type="radio" name="Q2" value="b" id="Q2b"> India
+    <input type="radio" name="Q2" value="c" id="Q2c"> Russia
+    <input type="radio" name="Q2" value="d" id="Q2d"> France
+
+    <h3 class="questions">[Q3] The metal whose salts are sensitive to light is:</h3>
+    <input type="radio" name="Q3" value="a" id="Q3a"> Zinc
+    <input type="radio" name="Q3" value="b" id="Q3b"> Silver
+    <input type="radio" name="Q3" value="c" id="Q3c"> Copper
+    <input type="radio" name="Q3" value="d" id="Q3d"> Aluminium 
+
+
+    <h3 class="questions">[Q4] The central rice research station is situated in:</h3>
+    <input type="radio" name="Q4" value="a" id="Q4a"> Chennai
+    <input type="radio" name="Q4" value="b" id="Q4b"> Cuttack
+    <input type="radio" name="Q4" value="c" id="Q4c"> Bangalore
+    <input type="radio" name="Q4" value="d" id="Q4d"> Quilon
+
+    <h3 class="questions">[Q5] Fineophobia is a fear of:</h3>
+    <input type="radio" name="Q5" value="a" id="Q5a">closed spaces
+    <input type="radio" name="Q5" value="b" id="Q5b">the number 13
+    <input type="radio" name="Q5" value="c" id="Q5c">everything being okay
+    <input type="radio" name="Q5" value="d" id="Q5d">monkeys
+    
+    <h3 class="questions">[Q6] DDT was invented by:</h3>
+    <input type="radio" name="Q6" value="a" id="Q6a"> Mosley
+    <input type="radio" name="Q6" value="b" id="Q6b"> Rudolf
+    <input type="radio" name="Q6" value="c" id="Q6c"> Dalton
+    <input type="radio" name="Q6" value="d" id="Q6d"> Carl Benz
+
+    <h3 class="questions">[Q7] The gas used for making vegetables is: </h3>
+    <input type="radio" name="Q7" value="a" id="Q7a"> Oxygen
+    <input type="radio" name="Q7" value="b" id="Q7b"> Carbon Dioxide
+    <input type="radio" name="Q7" value="c" id="Q7c"> Hydrogen
+    <input type="radio" name="Q7" value="d" id="Q7d"> Nitrogen
+
+    <h3 class="questions">[Q8] The chief ore of aluminium is: </h3>
+    <input type="radio" name="Q8" value="a" id="Q8a"> Iron
+    <input type="radio" name="Q8" value="b" id="Q8b"> Cryolite
+    <input type="radio" name="Q8" value="c" id="Q8c"> Bauxite
+    <input type="radio" name="Q8" value="d" id="Q8d"> Heametite
+
+    <h3 class="questions">[Q9] Country that was called as land of rising sun: </h3>
+    <input type="radio" name="Q9" value="a" id="Q9a"> Russia
+    <input type="radio" name="Q9" value="b" id="Q9b"> Japan
+    <input type="radio" name="Q9" value="c" id="Q9c"> Korea
+    <input type="radio" name="Q9" value="d" id="Q9d"> Holland 
+
+    <h3 class="questions">[Q10] Deficiency of iron leads to: </h3>
+    <input type="radio" name="Q10" value="a" id="Q10a"> Rickets
+    <input type="radio" name="Q10" value="b" id="Q10b"> Malaria
+    <input type="radio" name="Q10" value="c" id="Q10c"> Dental Cavity
+    <input type="radio" name="Q10" value="d" id="Q10d"> Anaemia
+
+    <h3>  </h3>
+    <button type="submit" class="submitbutton">FINISH</button>
+    <h2 class= "result"> RESULT: <span class = "finalscore"></span></h2>
+
+    </form>
+    <a id= "samepage" href = "QuizApp2.html"> Take the quiz again!</a>
+    <a id= "previouspage" href = "QuizApp.html"> Take the previous quiz!</a>
+    </div>
+    <script src = "QuizAppScript2.js"></script>
+
+    
+  <style>
+      .quiz-container{
+          margin-top: 2ch;
+          margin-bottom: 4ch;
+          margin-left: 10ch;
+          margin-right: 10ch;
+          width: 90%;
+          height: 1050px;
+          background-color: rgb(176, 216, 108);
+      }
+      .submitbutton{
+          margin-left: 50ch;
+          box-sizing: content-box;
+          color: firebrick;
+          font-size: medium;
+          font-family: sans-serif;
+
+      }
+      #heading {
+          font-size: xx-large;
+          font-weight: 600;
+          font-family: sans-serif;
+          align-self: center;
+          margin-left: 20ch;
+      }
+      .questions{
+          font-family: fantasy;
+          margin-left: 1ch;
+      }
+      .result{
+          margin-left: 19ch;
+          font-style: normal;
+          font-size: 5ch;
+          font-weight: 600;
+      }
+      #nextpage2{
+          margin-left: 20ch;
+          font-family: cursive;
+      }
+      #samepage2{
+          margin-left: 25ch;
+          font-family: cursive;
+      
+      
+  </style>
+  
+</body>
+</html>
