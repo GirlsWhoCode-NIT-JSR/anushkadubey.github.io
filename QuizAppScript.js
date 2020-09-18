@@ -1,4 +1,4 @@
-//window.alert("Welcome to the quiz!");
+window.alert("Welcome to the quiz!");
 function startquiz(){
 const maxscore = 10;
 var userscore = 0;
